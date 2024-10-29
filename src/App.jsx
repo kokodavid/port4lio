@@ -57,7 +57,7 @@ function App() {
     <div className="min-h-screen bg-gray-50">
       <Navbar />
       
-      {/* Hero Section */}
+      {/* Hero Sectn */}
       <section id="home">
         <Hero />
       </section>
