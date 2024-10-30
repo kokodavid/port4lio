@@ -3,8 +3,8 @@ import { GithubIcon, LinkedinIcon, MailIcon } from 'lucide-react';
 
 const handleDownloadResume = () => {
   const link = document.createElement('a');
-  link.href = '/CV_David_Mochoge.pdf'; 
-  link.download = 'David_Mochoge_Resume.pdf'; 
+  link.href = '/CV_David_Mochoge.pdf';
+  link.download = 'David_Mochoge_Resume.pdf';
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
@@ -23,7 +23,7 @@ const Hero = () => {
           Hi, I'm <span className="text-indigo-600">David Mochoge</span>
         </h1>
         <p className="text-xl text-gray-600 mb-8">
-        A passionate mobile app developer crafting intuitive and visually captivating experiences.
+          A passionate mobile app developer crafting intuitive and visually captivating experiences.
         </p>
         <div className="flex justify-center space-x-4 mb-8">
           <a
@@ -49,9 +49,9 @@ const Hero = () => {
             <MailIcon size={24} />
           </a>
         </div>
-        <button 
-        onClick={handleDownloadResume}
-        className="bg-indigo-600 text-white px-8 py-3 rounded-full font-medium hover:bg-indigo-700 transition-colors">
+        <button
+          onClick={handleDownloadResume}
+          className="bg-indigo-600 text-white px-8 py-3 rounded-full font-medium hover:bg-indigo-700 transition-colors">
           Download Resume
         </button>
       </div>
