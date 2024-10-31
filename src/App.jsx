@@ -4,6 +4,9 @@ import Hero from './components/Hero';
 import ProjectCard from './components/ProjectCard';
 import ArticleCard from './components/ArticleCard';
 import ResumeSection from './components/ResumeSection';
+import { Analytics } from "@vercel/analytics/react"
+
+Analytics();
 
 function App() {
   const projects = [
