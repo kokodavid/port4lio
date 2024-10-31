@@ -20,7 +20,7 @@ const Hero = () => {
           className="w-32 h-32 rounded-full mx-auto mb-8 border-4 border-white shadow-lg"
         /> */}
         <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-          Hi, I'm <span className="text-indigo-600">David Mochoge</span>
+          Hi, I'm <span className="text-indigo-600">David </span>
         </h1>
         <p className="text-xl text-gray-600 mb-8">
           A passionate mobile app developer crafting intuitive and visually captivating experiences.
