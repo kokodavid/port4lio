@@ -22,11 +22,11 @@ function App() {
       link: "https://apps.apple.com/us/app/acter/id6445989155"
     },
     {
-      title: "Fuzzy Trivia",
-      description: "A Trivia application with Streaks, Multiplayer and TV Shows Trivia",
-      image: "https://rldskppyocblrygykkqg.supabase.co/storage/v1/object/sign/images/portfolio/fuzzy%20trivia%20mx.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcG9ydGZvbGlvL2Z1enp5IHRyaXZpYSBteC5wbmciLCJpYXQiOjE3MzAyMTgxNzcsImV4cCI6MTc2MTc1NDE3N30.fgu6U09t8pORzdm7hC8nRLMosrOutpv43NpPNWuzdos&t=2024-10-29T16%3A09%3A37.879Z",
-      tags: ["Flutter", "Firebase", "SqFlite"],
-      link: "https://play.google.com/store/apps/details?id=com.giglab.fuzzytrivia&hl=en"
+      title: "Day",
+      description: "A personal sidekick app featuring TikTok-like video scrolling, habit tracking with streaks, and open-source contributions.",
+      image: "https://rldskppyocblrygykkqg.supabase.co/storage/v1/object/sign/images/portfolio/day%20logo.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcG9ydGZvbGlvL2RheSBsb2dvLnBuZyIsImlhdCI6MTczMjY0OTg2MiwiZXhwIjoxNzY0MTg1ODYyfQ.8K9inMeAgQEHLjC02t5Y75nY-cEN4gLZo2p9TLB2F4E&t=2024-11-26T19%3A37%3A44.184Z",
+      tags: ["Flutter", "Node.js", "Supabase", "SqFlite"],
+      link: "https://github.com/kokodavid/day"
     },
   ];
 
@@ -106,7 +106,7 @@ function App() {
       </section>
 
       {/* UI/UX Projects Section */}
-      <section id="ui-projects" className="py-16 bg-gradient-to-b from-white to-gray-50">
+      {/* <section id="ui-projects" className="py-16 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">UI/UX Designs</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -115,7 +115,7 @@ function App() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Articles Section */}
       <section id="articles" className="py-16 bg-gray-100">
