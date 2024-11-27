@@ -1,23 +1,51 @@
-import React from 'react';
-import { Menu, X } from 'lucide-react';
+import React from "react";
+import { Menu, X } from "lucide-react";
+import DayGraphic from "../assets/day.svg"; // Update with the correct path to your SVG
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
+  // Get current day of the week
+  const days = ["Sun", "Mon", "Tues", "Wednes", "Thurs", "Fri", "Satur"];
+  const currentDay = days[new Date().getDay()];
+
   return (
     <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
+        <div className="flex justify-between items-center h-16">
+          {/* Dynamic Day Display with SVG */}
           <div className="flex items-center">
-            <span className="text-xl font-bold text-indigo-600">David Mochoge</span>
+            <span className="text-[1.40rem] font-bold text-indigo-600 relative top-2">
+              {currentDay}
+            </span>
+            <img src={DayGraphic} alt="Day Logo" className="h-14 w-14 -ml-2" />
           </div>
-          
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-gray-700 hover:text-indigo-600 transition-colors">Home</a>
-            <a href="#projects" className="text-gray-700 hover:text-indigo-600 transition-colors">Projects</a>
-            <a href="#articles" className="text-gray-700 hover:text-indigo-600 transition-colors">Articles</a>
-            <a href="#resume" className="text-gray-700 hover:text-indigo-600 transition-colors">Skills</a>
+            <a
+              href="#home"
+              className="text-gray-700 hover:text-indigo-600 transition-colors"
+            >
+              Home
+            </a>
+            <a
+              href="#projects"
+              className="text-gray-700 hover:text-indigo-600 transition-colors"
+            >
+              Projects
+            </a>
+            <a
+              href="#articles"
+              className="text-gray-700 hover:text-indigo-600 transition-colors"
+            >
+              Articles
+            </a>
+            <a
+              href="#resume"
+              className="text-gray-700 hover:text-indigo-600 transition-colors"
+            >
+              Skills
+            </a>
           </div>
 
           {/* Mobile menu button */}
