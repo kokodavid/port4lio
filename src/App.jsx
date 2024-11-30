@@ -56,10 +56,19 @@ function App() {
 
   const articles = [
     {
+      title: "Effects of Alloying Elements on Steel",
+      description: "Learn how alloying elements influence the properties of steel.",
+      date: "November 28, 2024",
+      readTime: "2 min read",
+      tags: ["Materials Science", "Engineering"],
+      link: "https://medium.com/@MochogeDavid/effects-of-alloying-elements-on-steel-dd90b0bdfc62"
+    },
+    {
       title: "Integrating Google Sign-In with Supabase in Flutter",
       description: "Learn how to integrate Google Sign-In with Supabase in Flutter to streamline user authentication in your apps.",
       date: "October 23, 2024",
       readTime: "5 min read",
+      tags: ["Flutter", "Supabase", "Authentication"],
       link: "https://medium.com/@MochogeDavid/integrating-google-sign-in-with-supabase-in-a-flutter-app-efea8329f4e2"
     },
     {
@@ -67,20 +76,23 @@ function App() {
       description: "A guide to applying SOLID principles in Dart, helping developers write clean, modular, and highly maintainable code.",
       date: "July 18, 2024",
       readTime: "2 min read",
+      tags: ["Dart", "SOLID", "Clean Code"],
       link: "https://medium.com/@MochogeDavid/solid-principles-in-dart-d78de9d14299"
     },
     {
       title: "Object-Oriented Programming in Dart",
-      description: "Discover the fundamentals of Object-Oriented Programming in Dart to build organized, efficient, and reusable code",
+      description: "Discover the fundamentals of Object-Oriented Programming in Dart to build organized, efficient, and reusable code.",
       date: "May 29, 2024",
       readTime: "6 min read",
+      tags: ["Dart", "OOP"],
       link: "https://medium.com/@MochogeDavid/object-oriented-programming-in-dart-ee080999b2c8"
     },
     {
       title: "Data Types in Dart: A Beginner's Guide",
       description: "Explore the essential data types in Dart, providing a solid foundation for writing clear and efficient code.",
-      date: "Dec 20, 2023",
+      date: "December 20, 2023",
       readTime: "5 min read",
+      tags: ["Dart", "Beginner"],
       link: "https://medium.com/@MochogeDavid/data-types-in-dart-a-beginners-guide-caefde163e80"
     }
   ];
